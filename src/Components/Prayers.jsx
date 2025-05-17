@@ -6,7 +6,7 @@ import { CardActionArea } from "@mui/material";
 import PropTypes from "prop-types";
 export default function Prayers({ name, img, time }) {
   return (
-    <Card style={{ minWidth: "280px" }}>
+    <Card style={{ minWidth: "260px" }}>
       <CardActionArea>
         <CardMedia component="img" height="200" image={img} alt="img" />
         <CardContent>

@@ -1,4 +1,5 @@
 import {
+  Container,
   Divider,
   FormControl,
   InputLabel,
@@ -177,7 +178,7 @@ export default function MainContent() {
   );
   // ========================================
   return (
-    <>
+    <Container maxWidth="xl">
       <Stack
         direction="row"
         style={{ marginTop: "30px", flexWrap: "wrap", gap: "20px" }}>
@@ -207,7 +208,7 @@ export default function MainContent() {
         direction="row"
         justifyContent="center"
         style={{ marginTop: "30px" }}>
-        <FormControl style={{ width: "150px" }}>
+        <FormControl style={{ width: "250px" }}>
           <InputLabel id="demo-simple-select-label">
             <span style={{ color: "#fff" }}>المدينة</span>
           </InputLabel>
@@ -226,6 +227,6 @@ export default function MainContent() {
           </Select>
         </FormControl>
       </Stack>
-    </>
+    </Container>
   );
 }
